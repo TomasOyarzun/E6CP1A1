@@ -11,8 +11,10 @@
 a = 5
 b = ''
 
-a.times do
-  b = "<li> hola </li>\n"
+a.times do |i|
+	b += "<ul>\n" if i == 0
+	b += "<li> hola </li>\n"
+	b += '<ul>' if i == 4
 end
 
 puts b

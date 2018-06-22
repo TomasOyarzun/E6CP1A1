@@ -3,7 +3,9 @@
 
 a = ''
 10.times do |i|
-	
+	i += 1
+	a += "#{i}impar " if i.odd?
+	a += "#{i}par " if i.even?
 end
 
 puts a
