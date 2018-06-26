@@ -2,7 +2,7 @@
 # e imprimirlo reiteradamente hasta que el usuario ingrese la opción número 4.
 
 ready = 0
-while(ready == 0) do
+while ready.zero?
   puts 'Opción 1: blah'
   puts 'Opción 2: blah'
   puts 'Opción 3: blah'
