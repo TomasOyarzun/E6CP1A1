@@ -8,13 +8,9 @@ Se pide imprimir la secuencia numérica, de la siguiente forma:
 
 #Primer ciclo para las filas.
 for f in 1..4
-	print "#{f} " 
 	#Segundo ciclo para columnas.
-	for c in 2..4
-		print "#{c} " if f == 1
-		print "#{c * 2} " if f == 2
-		print "#{f * c} " if f == 3
-		print "#{f * c} " if f == 4		
+	for c in 1..4
+		print "#{f * c} "
 	end
 	puts ''
 end
